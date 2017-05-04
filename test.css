@@ -1,0 +1,140 @@
+.empty_left{
+  width: 16.6%;
+  float: left;
+}
+.empty_right{
+  width: 16.6%;
+  float: right;
+}
+.column_center{
+  display: inline-block;
+  width:33.3%; 
+  line-height: .8; 
+}
+.column_left{
+  float: left;
+  width: 16.6%;
+}
+.column_right{
+  float: right;
+  width: 16.6%;
+}
+#voxIcon{
+    width: 6%; 
+    padding-left: 15px; 
+    overflow: auto; 
+}
+#banner{
+    text-align:center;
+    width:50%;
+    display:block;
+    margin:auto;
+    padding-top: 30px;  
+}
+#financePhoto{
+  height: 120%;
+  width: 100%;  
+}
+#PrettyLightsPhoto{
+  width: 100%;
+  height: 100%;
+}
+#DescartesPhoto{
+  height: 40%;
+  width: 80%;
+}
+#consumerismPhoto{
+  height: 100%;
+  width: 100%; 
+}
+#rainyPhoto{
+  height: 100%;
+  width: 100%;
+}
+#voxIcon{
+  position: absolute;
+  padding-left: 25px; 
+}
+.NavBar{
+  background-color: #959191;
+    overflow: hidden;
+}
+.NavBar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 120px; 
+}
+body{
+  color: dimgrey; 
+  font-family: "Baskerville Old Face"
+}
+a{
+  text-decoration: none; color: dimgrey;
+}
+a:hover{
+  text-decoration: bold; 
+  color: black;
+}
+.empty_left{
+  visibility: hidden;
+}
+.empty_right{
+  visibility: hidden;
+}
+.topYellow {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 20px;
+        padding-top: 10px; 
+       
+}
+.topYellow > span {
+        position: relative;
+        display: inline-block;
+}
+.topYellow > span:before,
+.topYellow > span:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          width: 173%;
+          border-bottom: 4px solid yellow;
+
+}
+.topYellow > span:before {
+        right: 100%;
+        margin-right: 15px;
+}
+.topYellow > span:after {
+        left: 100%;
+        margin-left: 15px;
+}
+/* For cellphones */
+@media screen and (min-width: :100px) and (max-width:900px) (orientation: portrait) {
+
+  body{
+    font-size: 50px; 
+  }
+  img{
+    max-width: 100%;
+    height:auto;
+  }
+
+
+  /* For tablets */
+  @media screen and (min-width: 700px) and (max-width:1500px) {
+
+    body{
+      font-size:400px;
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    }

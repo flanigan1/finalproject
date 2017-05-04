@@ -1,0 +1,48 @@
+body{
+
+	font-family: Helvetica; 
+	color: dimgrey; 
+	line-height: 1.5; 
+}
+h1, h2{
+	line-height: 70%;
+}
+
+
+#DescartesCitations{
+	
+	list-style: none;
+}
+#QuoteIndent{
+ 
+	padding-left: 100px; 
+}
+a{
+  text-decoration: none; color: dimgrey;
+}
+a:hover{
+  text-decoration: bold; 
+  color: black;
+ }
+ /* For cellphones */
+@media screen and (min-width: :100px) and (max-width:900px) (orientation: portrait) {
+
+  body{
+    font-size: 50px; 
+  }
+  img{
+    max-width: 100%;
+    height:auto;
+  }
+
+
+  /* For tablets */
+  @media screen and (min-width: 700px) and (max-width:1500px) {
+
+    body{
+      font-size:400px;
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    }
